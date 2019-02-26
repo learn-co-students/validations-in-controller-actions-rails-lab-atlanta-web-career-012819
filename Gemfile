@@ -9,7 +9,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
-  gem 'pry'
+  gem 'rb-readline' # NEED this to use pry
+  gem 'pry', '~> 0.10.4'
+  # gem 'pry-rails'
 end
 
 group :development do
